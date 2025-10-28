@@ -44,24 +44,6 @@ python live_stt.py --quiet
 4. Press **Cmd + Shift + ;** again to stop
 5. Transcription auto-pastes to your active text field
 
-## Troubleshooting
-
-**Auto-paste not working:**
-- Grant Accessibility permissions (see Prerequisites)
-- Run `python test_paste.py` to diagnose issues
-
-**Wrong microphone:**
-```bash
-python -c "import sounddevice as sd; print(sd.query_devices())"
-```
-
-## Files
-
-- `live_stt.py` - Main script
-- `test_paste.py` - Diagnostic tool
-- `run_background.sh` - Background launcher
-- `requirements.txt` - Dependencies
-
 ## Configuration
 
 Edit `live_stt.py`:
